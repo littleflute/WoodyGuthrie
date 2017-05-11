@@ -1,4 +1,4 @@
-[v0.0.6](https://github.com/littleflute/WoodyGuthrie/edit/master/Bob Dylan's Woody Guthrie selection/readme.md)
+[v0.0.7](https://github.com/littleflute/WoodyGuthrie/edit/master/Bob Dylan's Woody Guthrie selection/readme.md)
 
 [show this page](https://littleflute.github.io/WoodyGuthrie/Bob Dylan's Woody Guthrie selection)
 
@@ -78,7 +78,7 @@ function f2(i)
 function fNewBtn2(i)
 {
 	var rHTML = "";
-    rHTML = "<button onclick='f(";
+    rHTML = "<button onclick='f2(";
     rHTML += i;
     rHTML += ");'>";
     rHTML += i;
