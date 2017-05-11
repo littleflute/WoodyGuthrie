@@ -1,9 +1,10 @@
-[v0.0.5](https://github.com/littleflute/WoodyGuthrie/edit/master/Woody%20Guthrie%20at%20100!/readme.md)
+[v0.0.7](https://github.com/littleflute/WoodyGuthrie/edit/master/Woody%20Guthrie%20at%20100!/readme.md)
 
 [show this page](https://littleflute.github.io/WoodyGuthrie/Woody%20Guthrie%20at%20100!)
 
 [home](..)
 
+[DVD](DVD)
 
 
 <audio controls id="player"> 
