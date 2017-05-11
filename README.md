@@ -1,3 +1,68 @@
+[v0.1.2](https://github.com/littleflute/WoodyGuthrie/edit/master/README.md)
+
+[show this page](https://littleflute.github.io/WoodyGuthrie/)
+
+[Bob Dylan's Woody Guthrie selection](Bob Dylan's Woody Guthrie selection)
+
+[Old time religion](Old time religion)
+
+[Woody Guthrie at 100!](Woody Guthrie at 100!)
+
+
+<audio controls id="player"> 
+  <source src="https://littleflute.github.io/WoodyGuthrie/Old time religion/cd/01_曲目 1.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<div id="xd"> 
+</div>
+<script>
+var d = document.getElementById("xd"); 
+var html = d.innerHTML; 
+
+html += fNewBtn(1);
+html += fNewBtn(2);
+html += fNewBtn(3);
+html += fNewBtn(4);
+html += fNewBtn(5);
+html += fNewBtn(6);
+html += fNewBtn(7);
+ 
+d.innerHTML = html;
+
+var p = document.getElementById("player");
+function f(i)
+{
+    var s = "https://littleflute.github.io/WoodyGuthrie/Old time religion/cd/0";
+    s += i;
+    s += "_曲目 ";
+    s += i;
+    s += ".mp3";
+    
+	p.src = s; 
+    p.play();
+}
+function fNewBtn(i)
+{
+	var rHTML = "";
+    rHTML = "<button onclick='f(";
+    rHTML += i;
+    rHTML += ");'>";
+    rHTML += i;
+    rHTML += "</button>";
+    return rHTML;
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/littleflute/WoodyGuthrie/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
